@@ -1,1 +1,1 @@
-udbhav227/github.io/f1-landing-page/
+udbhav227/github.io/f1-landing-page
