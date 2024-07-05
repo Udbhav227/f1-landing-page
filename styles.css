@@ -33,7 +33,7 @@ button {
 .container {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0px 30px;
 }
 
 .logo {
@@ -47,6 +47,7 @@ button {
 .footer {
     background-color: #1F2937;
     color:#E5E7EB;
+    padding: 0px 16px;
 }
 
 
@@ -165,5 +166,32 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 116px;
+    padding: 100px;
+}
+
+.last-box .container {
+    padding: 100px;
+}
+
+.box {
+    padding: 50px 144px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box button {
+    flex-shrink: 0;
+    font-size: 18px;
+    color: white;
+    background-color: #3882f6;
+    border: 3px solid #F9FAF8;
+    border-radius: 12px;
+    padding: 6px 32px;
+}
+
+.box p {
+    color: #E5E7EB;
 }
